@@ -1,10 +1,16 @@
-#ex 1:
+#ex 4:
 
-print "What's your name? "
-name = gets.chomp
+# get user's first name
+print "What's your first name? "
+first_name = gets.chomp
 
-puts "Hello #{name}! Enjoy the rest of your exercises!"
+# get user's last name
+print "What's your last name? "
+last_name = gets.chomp
 
-# ex 3:
+# print full name all at once
+puts "Hello #{first_name + last_name}!"
 
-10.times { puts name }
+# ex 3: print user's name 10 times
+
+10.times { puts "#{first_name} #{last_name}"}
